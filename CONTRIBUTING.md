@@ -28,3 +28,15 @@ Thank you for your interest in contributing to this project as part of HackNight
 7. **Get Feedback**: Wait for a maintainer to review your pull request (PR) and provide feedback.
 
 8. **~~Profit~~**: If everything is approved, your issue will be closed, and you'll get bounty points on the leaderboard
+
+nimbus consists of a tui and a cli, you can test both separately
+
+
+test the cli
+->in nimbus.nimble
+->change source directory to src/bsky
+->change bin from nimbus to bsky
+->run nimble build
+
+test the tui
+->run nimble build
